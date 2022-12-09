@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <!-- Autoplay is allowed. -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horror Girl</title>
+    <meta property="og:image" content="thumbnail.jpg" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="bar">
+      <div class="score">
+        <h3 class="score__title">Score:&nbsp;</h3>
+        <h3 class="score__quanity"></h3>
+      </div>
+      <div class="health">
+        <h3 class="health__title">Health:&nbsp;</h3>
+        <h3 class="health__quanity"></h3>
+      </div>
+    </div>
+
+    <div class="game-over">
+      <div class="game-over__block">
+        <h1 class="game-over__title">GAME OVER</h1>
+        <h2 class="game-over__total-score"></h2>
+        <button href="#" class="game-over__resume">resume</button>
+      </div>
+    </div>
+
+    <div class="pause pause_opened">
+      <h1 class="pause__title">PAUSE</h1>
+    </div>
+    <!--
+    <div class="navigator">
+      <button class="navigator__left"></button>
+      <button class="navigator__right"></button>
+    </div>
+    -->
+    <div class="loading loading_opened">Loading...</div>
+    <div id="container"></div>
+    <script src="./scripts/script.js" type="module"></script>
+  </body>
+</html>

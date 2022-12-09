@@ -1,0 +1,4 @@
+{
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "liveServer.settings.port": 5501
+}
